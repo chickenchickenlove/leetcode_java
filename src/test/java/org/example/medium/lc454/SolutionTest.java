@@ -19,6 +19,6 @@ class SolutionTest {
         Solution solution = new Solution();
         int result = solution.fourSumCount(nums1, nums2, nums3, nums4);
 
-        System.out.println(result == 4);
+        System.out.println(result);
     }
 }
