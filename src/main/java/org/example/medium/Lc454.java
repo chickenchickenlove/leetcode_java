@@ -1,17 +1,10 @@
 package org.example.medium;
 
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Optional;
-import java.util.stream.Collectors;
 
 public class Lc454 {
-
-
-
-
-
     static class Solution {
 
         private Map<Integer, Integer> computeMap(int[] n1, int[] n2) {
