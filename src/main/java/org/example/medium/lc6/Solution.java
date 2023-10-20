@@ -25,7 +25,7 @@ class Solution {
                 d = true;
             }
 
-            if (d == true) {
+            if (d) {
                 r++;
             } else {
                 r--;
@@ -34,9 +34,7 @@ class Solution {
 
         StringBuilder builder = new StringBuilder();
         for (List<Character> row : rows) {
-            for (Character character : row) {
-                builder.append(character);
-            }
+            row.forEach(builder::append);
         }
 
         return builder.toString();
